@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Expense-Tracker/static/css/main.82723b6f.css",
-    "main.js": "/Expense-Tracker/static/js/main.88be85b6.js",
-    "static/media/pastils.png": "/Expense-Tracker/static/media/pastils.97111b70e1f281b77750.png",
-    "static/media/regularPastil.png": "/Expense-Tracker/static/media/regularPastil.ed256eb17c8d019278e9.png",
-    "static/media/spicyPastil.png": "/Expense-Tracker/static/media/spicyPastil.91e2d116b9d6d4466ecc.png",
-    "static/media/jayTrippersLogo.png": "/Expense-Tracker/static/media/jayTrippersLogo.e60947ac8724fa038238.png",
-    "index.html": "/Expense-Tracker/index.html",
-    "main.82723b6f.css.map": "/Expense-Tracker/static/css/main.82723b6f.css.map",
-    "main.88be85b6.js.map": "/Expense-Tracker/static/js/main.88be85b6.js.map"
+    "main.css": "/Chicken-Pastil/static/css/main.bc891bd4.css",
+    "main.js": "/Chicken-Pastil/static/js/main.8b9c01dc.js",
+    "static/media/pastils.png": "/Chicken-Pastil/static/media/pastils.97111b70e1f281b77750.png",
+    "static/media/regularPastil.png": "/Chicken-Pastil/static/media/regularPastil.ed256eb17c8d019278e9.png",
+    "static/media/spicyPastil.png": "/Chicken-Pastil/static/media/spicyPastil.91e2d116b9d6d4466ecc.png",
+    "static/media/jayTrippersLogo.png": "/Chicken-Pastil/static/media/jayTrippersLogo.e60947ac8724fa038238.png",
+    "index.html": "/Chicken-Pastil/index.html",
+    "main.bc891bd4.css.map": "/Chicken-Pastil/static/css/main.bc891bd4.css.map",
+    "main.8b9c01dc.js.map": "/Chicken-Pastil/static/js/main.8b9c01dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.82723b6f.css",
-    "static/js/main.88be85b6.js"
+    "static/css/main.bc891bd4.css",
+    "static/js/main.8b9c01dc.js"
   ]
 }
