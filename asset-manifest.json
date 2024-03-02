@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Expense-Tracker/static/css/main.82723b6f.css",
+    "main.js": "/Expense-Tracker/static/js/main.88be85b6.js",
+    "static/media/pastils.png": "/Expense-Tracker/static/media/pastils.97111b70e1f281b77750.png",
+    "static/media/regularPastil.png": "/Expense-Tracker/static/media/regularPastil.ed256eb17c8d019278e9.png",
+    "static/media/spicyPastil.png": "/Expense-Tracker/static/media/spicyPastil.91e2d116b9d6d4466ecc.png",
+    "static/media/jayTrippersLogo.png": "/Expense-Tracker/static/media/jayTrippersLogo.e60947ac8724fa038238.png",
+    "index.html": "/Expense-Tracker/index.html",
+    "main.82723b6f.css.map": "/Expense-Tracker/static/css/main.82723b6f.css.map",
+    "main.88be85b6.js.map": "/Expense-Tracker/static/js/main.88be85b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82723b6f.css",
+    "static/js/main.88be85b6.js"
+  ]
+}
