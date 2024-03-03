@@ -4,8 +4,11 @@ import "./EmailForm.css"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
+import { Button } from "@mui/material";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const EmailForm = () => {
+    const [loading, setLoading] = useState(false);
     const [details, setDetails] = useState({
       firstName: "",
       lastName: "",
@@ -64,12 +67,11 @@ export const EmailForm = () => {
 
     
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = () => {
       const { firstName, lastName, streetName, municipality, barangay, city, province, zipCode, phone, email } = details;
 
       if ((firstName && lastName && streetName && municipality && barangay && zipCode) && (city || province) && (phone || email)) {
-          console.log("test");
+          setLoading(true);
           emailjs
             .sendForm("service_e4zegso", "template_raurqkg", form.current, {
               publicKey: "KYOClDW9mN_Gi-vzU",
@@ -89,6 +91,7 @@ export const EmailForm = () => {
                       phone: "09",
                       email: "",
                     });
+                    setLoading(false);
               },
               (error) => {
                 notifyError();
@@ -205,11 +208,21 @@ export const EmailForm = () => {
             />
           </div>
         </div>
-        <div className="submit">
-          <input type="submit" value="Send" />
+        <div className="submit" onClick={() => sendEmail()}>
+          {!loading ? (
+            <Button variant="contained">Send</Button>
+          ) : (
+            <LoadingButton
+              loading
+              loadingIndicator="Loading…"
+              variant="outlined"
+            >
+              Fetch data
+            </LoadingButton>
+          )}
         </div>
-          </form>
-          <ToastContainer/>
+      </form>
+      <ToastContainer />
     </>
   );
 };
