@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Chicken-Pastil/static/css/main.911ace4c.css",
-    "main.js": "/Chicken-Pastil/static/js/main.a1662155.js",
+    "main.css": "/Chicken-Pastil/static/css/main.88b44bc3.css",
+    "main.js": "/Chicken-Pastil/static/js/main.593a2ddd.js",
     "static/media/mainFacebookPage.png": "/Chicken-Pastil/static/media/mainFacebookPage.aed29617b52fc9aefc8e.png",
     "static/media/titkok.png": "/Chicken-Pastil/static/media/titkok.4f86ee24b01de68ddc45.png",
     "static/media/facebookPage.png": "/Chicken-Pastil/static/media/facebookPage.a9b6278da4bfbb390dd8.png",
     "static/media/linear-bg.png": "/Chicken-Pastil/static/media/linear-bg.084aaf1717b8197b50ac.png",
+    "static/media/pastils.png": "/Chicken-Pastil/static/media/pastils.97111b70e1f281b77750.png",
     "static/media/regularFlavor.png": "/Chicken-Pastil/static/media/regularFlavor.5336d8f9e7eaee704af5.png",
     "static/media/regulartPastil.png": "/Chicken-Pastil/static/media/regulartPastil.5516d3719d7178af31b1.png",
     "static/media/spictyPastil.png": "/Chicken-Pastil/static/media/spictyPastil.884369750a26f8bf3d49.png",
     "static/media/spicyFlavorCircle.png": "/Chicken-Pastil/static/media/spicyFlavorCircle.4407283db54fdd470958.png",
     "static/media/jayTrippersLogo.png": "/Chicken-Pastil/static/media/jayTrippersLogo.e60947ac8724fa038238.png",
     "index.html": "/Chicken-Pastil/index.html",
-    "main.911ace4c.css.map": "/Chicken-Pastil/static/css/main.911ace4c.css.map",
-    "main.a1662155.js.map": "/Chicken-Pastil/static/js/main.a1662155.js.map"
+    "main.88b44bc3.css.map": "/Chicken-Pastil/static/css/main.88b44bc3.css.map",
+    "main.593a2ddd.js.map": "/Chicken-Pastil/static/js/main.593a2ddd.js.map"
   },
   "entrypoints": [
-    "static/css/main.911ace4c.css",
-    "static/js/main.a1662155.js"
+    "static/css/main.88b44bc3.css",
+    "static/js/main.593a2ddd.js"
   ]
 }
