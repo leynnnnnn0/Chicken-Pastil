@@ -1,0 +1,49 @@
+.footer {
+    background: black;
+    height: 20vh;
+    padding: 2rem 5rem;
+}
+
+.logo-image img {
+    width: 150px;
+}
+
+.socials {
+    font-size: 2rem;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+.socials a {
+    color: white;
+}
+
+@media (max-width: 750px) {
+    .footer {
+        height: 15vh;
+    }
+    .logo-image img {
+        width: 70px;
+    }
+    .socials a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        height: 10vh;
+    }
+    .logo-image img {
+        width: 50px;
+    }
+    .socials a {
+        font-size: 1rem;
+    }
+
+    .socials {
+        gap: 0.5rem;
+    }
+}
+
+

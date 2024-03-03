@@ -7,7 +7,7 @@ import menuStore from "../../store/menuStore";
 const HiddenMenu = () => {
     const store = menuStore();
   return (
-    <div className="hidden-menu">
+    <div className="hidden-menu flexCenter w100 h100">
       <IoArrowBackCircleOutline className="exit" onClick={() => store.setShow()} />
       {navigations.map((item) => (
         <Link

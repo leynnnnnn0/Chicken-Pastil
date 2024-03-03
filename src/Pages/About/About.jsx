@@ -10,12 +10,12 @@ import { marketings } from "../../Data/datas";
 
 const About = () => {
   return (
-    <div className="about">
-      <div className="about-product">
+    <div className="about w100">
+      <div className="about-product flexCSB">
         <div className="product-image box1">
           <img src={regularFlavor} alt="regular flavor" />
         </div>
-        <div className="about-pastil">
+        <div className="about-pastil flexCol flexCSB">
           <h1>Pastil</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
@@ -53,7 +53,7 @@ const About = () => {
           {marketings.map((item) => (
             <SwiperSlide key={item.image}>
               <div className="marketing-box">
-                <img src={item.image} alt="image" />
+                <img src={item.image} alt="marketing" />
               </div>
             </SwiperSlide>
           ))}

@@ -13,3 +13,36 @@ a {
   color: black;
   cursor: pointer;
 }
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexCSB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BR10 {
+  border-radius: 10px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100vh;
+}

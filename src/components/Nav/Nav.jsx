@@ -11,9 +11,9 @@ const Nav = () => {
   let show = store.show;
 
   return (
-    <div className="navigation-container">
-      <div className="nav">
-        <div className="navigation-list">
+    <div className="navigation-container flexCol w100">
+      <div className="nav flexCSB w100">
+        <div className="navigation-list flexCSB">
           {navigations.map((item) => (
             <Link
               key={item.to}
@@ -29,7 +29,7 @@ const Nav = () => {
         <div className="logo-container">
           <img src={jayTrippersLogo} alt="jay Trippers Logo" />
         </div>
-        <div className="contacts">
+        <div className="contacts flexCSB">
           {contacts.map((item) => (
             <a key={item.link} href={item.link} className="icon">
               {item.title}

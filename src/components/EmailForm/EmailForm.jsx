@@ -102,8 +102,8 @@ export const EmailForm = () => {
   };
 
   return (
-    <div className="email-form-container">
-      <form ref={form} onSubmit={sendEmail} className="email-form">
+    <>
+      <form ref={form} onSubmit={sendEmail} className="email-form flexCol BR10">
         <h3>Full Name</h3>
         <div className="full-name">
           <div className="input">
@@ -210,6 +210,6 @@ export const EmailForm = () => {
         </div>
           </form>
           <ToastContainer/>
-    </div>
+    </>
   );
 };
