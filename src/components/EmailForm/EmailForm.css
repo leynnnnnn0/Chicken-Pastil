@@ -1,0 +1,101 @@
+.email-form {
+    width: 600px;
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-shrink: 1;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.input input {
+    text-indent: 0.5rem;
+}
+
+.full-name, .contact {
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+}
+
+.address {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.input input {
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.submit {
+    align-self: flex-end;
+}
+.submit input {
+    padding: 0.3em 2rem;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .email-form {
+        width: 400px;
+        gap: 0.5rem;
+    }
+    .streetName {
+        font-size: 0.6rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .email-form {
+        width: 250px;
+        gap: 0;
+        align-items: center;
+    }
+    .streetName {
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.3rem;
+    }
+    .full-name, .contact {
+        flex-direction: column;
+        gap: 0;
+        flex-grow: 1;
+    }
+    label {
+        font-size: 0.7rem;
+    }
+    .input input {
+        width: 200px;
+        height: 1.5rem;
+    }
+    .address {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .submit {
+        align-self: center;
+    }
+
+    .submit input {
+        padding: 0.2rem 1rem;
+        margin-top: 1rem;
+
+    }
+    
+}
+

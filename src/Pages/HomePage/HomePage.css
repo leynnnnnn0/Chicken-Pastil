@@ -1,0 +1,121 @@
+.home-page {
+    height: 100vh;
+    max-width: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("../../images//linear-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    color: white;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.nav-area {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.home-page-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.home-page-content h1 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.home-page-content p {
+    margin: 0.7rem;
+}
+
+.order-now {
+    padding: 0.7rem 3rem;
+    background: none;
+    background: red;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.home-design img {
+    width: 400px;
+}
+
+
+@media (max-width: 1350px) {
+    .home-design img {
+    width: 300px;
+}
+}
+
+@media (max-width: 1150px) {
+    .home-design img {
+        width: 250px;
+    }
+    .home-page-content h1 {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+    .home-page-content p {
+        font-size: 0.7rem;
+    }
+
+    .order-now {
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media (max-width: 930px) {
+    .home-design img {
+        width: 200px;
+    }
+    .home-page-content h1 {
+        font-size: 1.5rem;
+        line-height: 3.2rem;
+    }
+    .home-page-content p {
+        font-size: 0.7rem;
+    }
+
+    .order-now {
+        padding: 0.3rem 2rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .home-design{
+        display: none;
+    }
+
+    .home-page {
+        justify-content: center;
+        background-position: left;
+    }
+    .home-page-content h1 {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    .home-page-content p {
+        font-size: 1rem;
+    }
+
+    .order-now {
+        padding: 0.5rem 3rem;
+    }
+}
+
+
