@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Chicken-Pastil/static/css/main.81249c16.css",
+    "main.css": "/Chicken-Pastil/static/css/main.e2e8d634.css",
     "main.js": "/Chicken-Pastil/static/js/main.e5554f25.js",
     "static/media/mainFacebookPage.png": "/Chicken-Pastil/static/media/mainFacebookPage.aed29617b52fc9aefc8e.png",
     "static/media/titkok.png": "/Chicken-Pastil/static/media/titkok.4f86ee24b01de68ddc45.png",
@@ -13,11 +13,11 @@
     "static/media/spicyFlavorCircle.png": "/Chicken-Pastil/static/media/spicyFlavorCircle.4407283db54fdd470958.png",
     "static/media/jayTrippersLogo.png": "/Chicken-Pastil/static/media/jayTrippersLogo.e60947ac8724fa038238.png",
     "index.html": "/Chicken-Pastil/index.html",
-    "main.81249c16.css.map": "/Chicken-Pastil/static/css/main.81249c16.css.map",
+    "main.e2e8d634.css.map": "/Chicken-Pastil/static/css/main.e2e8d634.css.map",
     "main.e5554f25.js.map": "/Chicken-Pastil/static/js/main.e5554f25.js.map"
   },
   "entrypoints": [
-    "static/css/main.81249c16.css",
+    "static/css/main.e2e8d634.css",
     "static/js/main.e5554f25.js"
   ]
 }
