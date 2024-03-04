@@ -6,6 +6,7 @@
 }
 
 .about-pastil {
+    display: block;
     height: 250px;
     width: 600px;
     color: white;
@@ -121,7 +122,7 @@
 }
 
 .about-pastil p{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 
 }

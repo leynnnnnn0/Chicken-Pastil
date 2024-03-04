@@ -39,6 +39,7 @@
     background: none;
     background: red;
     color: black;
+    border: 1px solid black;
     font-size: 1rem;
     cursor: pointer;
     
